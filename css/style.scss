@@ -12,7 +12,7 @@ $text_purple: #417dff;
 
 * {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light{
@@ -48,9 +48,11 @@ $text_purple: #417dff;
 
     .info {
         width: 100%;
+        margin-top: 60px;
+        //border: 1px solid blue;
         div {
             margin: auto;
-            min-width: 400px;
+            max-width: 400px;
         }
         //border: 1px solid red;
         color: $text_dark;
@@ -91,6 +93,9 @@ $text_purple: #417dff;
     }
 }
 
+.section-02 {
+
+}
 
 .section-02, .section-03 {
     border-top: 35px solid $base_skyblue;
@@ -172,7 +177,7 @@ $text_purple: #417dff;
     
     .section-info {
         margin:auto;
-        border: 1px solid red;
+        //border: 1px solid red;
         width:100%;
         max-width: 800px;
         text-align: center;
@@ -225,3 +230,96 @@ footer {
     padding-bottom: 60px;
     padding-top: 60px;
 }
+
+
+
+
+
+
+
+// ####################################################
+// M E D I A  Q U E R I E S
+// ####################################################
+
+/*
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-01 {
+        .home-get-started {
+            width: 65%;
+        }
+    }
+    
+
+
+    .section-06 {        
+        .section-info {    
+            .get-started {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 576px) {
+   
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+
+@media (max-width: 950px) {
+}
+
+
+
